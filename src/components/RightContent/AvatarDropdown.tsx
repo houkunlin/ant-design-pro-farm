@@ -4,7 +4,7 @@ import { LogoutOutlined, UserOutlined, } from '@ant-design/icons';
 import { Link, useLocation, useNavigate } from "@tanstack/react-router";
 import { Spin } from 'antd';
 import { createStyles } from 'antd-style';
-import { isNil } from 'lodash';
+import { isNil } from 'es-toolkit';
 import type { MenuInfo } from 'rc-menu/lib/interface';
 import React, { useCallback } from 'react';
 import { flushSync } from 'react-dom';

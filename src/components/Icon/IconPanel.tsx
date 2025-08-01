@@ -1,9 +1,9 @@
 import { getIcon } from "@/components/Icon/KeyIcon.tsx";
-import { isNil } from 'lodash';
 import { useEmotionCss } from "@ant-design/use-emotion-css";
 import { useBoolean, useControllableValue } from 'ahooks';
 import { Tabs } from 'antd';
 import classNames from "classnames";
+import { isNil } from 'es-toolkit';
 import { useEffect, useMemo, useState } from 'react';
 import styles from './styles.module.less';
 

@@ -1,6 +1,6 @@
 import * as Icon from "@ant-design/icons";
 import type { AntdIconProps } from "@ant-design/icons/es/components/AntdIcon";
-import { isNil } from "lodash";
+import { isNil } from "es-toolkit";
 import * as React from "react";
 import { forwardRef, type ForwardRefExoticComponent, type PropsWithoutRef, type RefAttributes } from "react";
 import type { IconKeyType } from "./types.ts";

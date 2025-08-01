@@ -104,7 +104,7 @@ export const layout = ({ initialState }: LayoutParams) => {
         <Link
           to={'/'}
           draggable={false}
-          onDragStart={(e: any) => {
+          onDragStart={(e) => {
             e.preventDefault();
           }}
         >
