@@ -22,7 +22,7 @@
     "antd": "^5.26.4",
     "antd-img-crop": "^4.25.0",
     "antd-style": "^3.7.1",
-    "axios": "^1.10.0",
+    "axios": "^1.11.0",
     "check-platform": "^1.0.0",
     "classnames": "^2.5.1",
     "copy-to-clipboard": "^3.3.3",
