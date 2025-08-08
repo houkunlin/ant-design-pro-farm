@@ -1,3 +1,5 @@
+import bg1 from '@/assets/images/C2TWRpJpiC0AAAAAAAAAAAAAFl94AQBr.webp';
+import bg2 from '@/assets/images/F6vSTbj8KpYAAAAAAAAAAAAAFl94AQBr.webp';
 import { AvatarDropdown, AvatarName, Footer, Question } from "@/components";
 import type { InitialStateType, UseInitialStateType } from "@/models";
 import { currentUser as queryCurrentUser } from '@/services/ant-design-pro/api';
@@ -5,8 +7,6 @@ import type { RequestConfig } from "@/utils";
 import { type ProLayoutProps, type Settings as LayoutSettings } from '@ant-design/pro-components';
 import { Link } from "@tanstack/react-router";
 import defaultSettings from '../config/defaultSettings';
-import bg1 from '@/assets/images/C2TWRpJpiC0AAAAAAAAAAAAAFl94AQBr.webp';
-import bg2 from '@/assets/images/F6vSTbj8KpYAAAAAAAAAAAAAFl94AQBr.webp';
 
 const loginPath = '/user/login';
 
