@@ -1,4 +1,5 @@
 import { createStyles } from "antd-style";
+import loginBackgroundImage from '@/assets/images/V-_oS6r-i7wAAAAAAAAAAAAAFl94AQBr.png';
 
 export const useStyles = createStyles(({ token }) => {
   return {
@@ -32,7 +33,7 @@ export const useStyles = createStyles(({ token }) => {
       flexDirection: 'column',
       height: '100vh',
       overflow: 'auto',
-      backgroundImage: "url('/images/V-_oS6r-i7wAAAAAAAAAAAAAFl94AQBr.png')",
+      backgroundImage: `url(${loginBackgroundImage})`,
       backgroundSize: '100% 100%',
     },
   };

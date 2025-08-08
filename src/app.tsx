@@ -5,6 +5,8 @@ import type { RequestConfig } from "@/utils";
 import { type ProLayoutProps, type Settings as LayoutSettings } from '@ant-design/pro-components';
 import { Link } from "@tanstack/react-router";
 import defaultSettings from '../config/defaultSettings';
+import bg1 from '@/assets/images/C2TWRpJpiC0AAAAAAAAAAAAAFl94AQBr.webp';
+import bg2 from '@/assets/images/F6vSTbj8KpYAAAAAAAAAAAAAFl94AQBr.webp';
 
 const loginPath = '/user/login';
 
@@ -80,19 +82,19 @@ export const layout = ({ initialState }: LayoutParams) => {
     },
     bgLayoutImgList: [
       {
-        src: '/images/C2TWRpJpiC0AAAAAAAAAAAAAFl94AQBr.webp',
+        src: bg1,
         left: 85,
         bottom: 100,
         height: '303px',
       },
       {
-        src: '/images/C2TWRpJpiC0AAAAAAAAAAAAAFl94AQBr.webp',
+        src: bg1,
         bottom: -68,
         right: -45,
         height: '303px',
       },
       {
-        src: '/images/F6vSTbj8KpYAAAAAAAAAAAAAFl94AQBr.webp',
+        src: bg2,
         bottom: 0,
         left: 0,
         width: '331px',
