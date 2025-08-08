@@ -6,17 +6,17 @@
 
 ```
 src/
-  |- assets         // 静态资源路径，使用 import 导入
-  |- components     // 自定义组件
-  |- config         // 一些配置
-  |- layouts        // 页面布局文件
-  |- locales        // 一些国际化数据
-  |- models         // 数据状态，当前使用 zustand 库
-  |- pages          // 页面组件文件
-  |- routes         // 页面路由文件，路由文件会 import 引入 pages 页面组件文件
-  |- services       // 一些请求方法调用
-  |- store          // 原计划是使用 valtio 库来做一些数据状态管理，但是暂时未使用
-  |- utils          // 一些工具类
+  |- assets/        // 静态资源路径，使用 import 导入
+  |- components/    // 自定义组件
+  |- config/        // 一些配置
+  |- layouts/       // 页面布局文件
+  |- locales/       // 一些国际化数据
+  |- models/        // 数据状态，当前使用 zustand 库
+  |- pages/         // 页面组件文件
+  |- routes/        // 页面路由文件，路由文件会 import 引入 pages 页面组件文件
+  |- services/      // 一些请求方法调用
+  |- store/         // 原计划是使用 valtio 库来做一些数据状态管理，但是暂时未使用
+  |- utils/         // 一些工具类
   |- 404.tsx        // 404 页面组件，在 router.tsx 中会使用到
   |- access.ts      // 雷同 ant design pro 的 access.ts 文件
   |- app.tsx        // 雷同 ant design pro 的 access.ts 文件
