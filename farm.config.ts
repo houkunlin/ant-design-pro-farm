@@ -2,8 +2,8 @@ import { defineConfig } from '@farmfe/core';
 import farmLessPlugin from '@farmfe/js-plugin-less';
 // import farmPostcssPlugin from "@farmfe/js-plugin-postcss";
 import farmJsPluginSvgr from '@farmfe/js-plugin-svgr';
-import * as path from 'node:path';
 import { tanstackRouter } from '@tanstack/router-plugin/vite';
+import * as path from 'node:path';
 import antdLess from './antd-less';
 
 const isDev = process.env.NODE_ENV === 'development';
@@ -17,8 +17,8 @@ export default defineConfig({
     },
     output: {
       path: 'dist',
-      // publicPath: isProd ? 'https://cdn.com' : '/'
-      publicPath: '/',
+      // publicPath: isProd ? 'https://cdn.com' : '/',
+      publicPath: isProd ? './' : '/',
       targetEnv: 'browser',
       filename: 'assets/[name]_[hash].[ext]',
       assetsFilename: 'static/[name].[ext]',
