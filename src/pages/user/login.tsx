@@ -5,12 +5,14 @@ import { useNavigate } from "@tanstack/react-router";
 import { Tabs } from "antd";
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
+import { useStyles } from "./styles.ts";
 
 export default function Login() {
   const { t } = useTranslation();
+  const { styles } = useStyles();
   const navigate = useNavigate();
   return (
-    <div>
+    <div className={styles.container}>
       <Helmet>
         <title>
           {t('menu.login')}
@@ -47,7 +49,7 @@ export default function Login() {
             items={[
               {
                 key: 'login',
-                title: '账号密码',
+                label: '账号密码',
               }
             ]}
           />
